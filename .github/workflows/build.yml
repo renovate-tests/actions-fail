@@ -1,0 +1,11 @@
+name: Action test
+
+on: [push]
+
+jobs:
+  node:
+    name: Node
+    runs-on: ubuntu-latest
+    steps:
+      - name: Node
+        uses: docker://node:12.15.0
