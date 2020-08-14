@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Node
-        uses: docker://node:12.15.0
+        uses: docker://node:12.16.0
